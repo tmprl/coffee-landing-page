@@ -90,9 +90,20 @@ button {
     margin-top: 20px;
     background: var(--primary-color);
     border-radius: 8px;
-    font-size: 2rem;
+
 
     transform: translateY(60px);
 }
+
+#our-story {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    height: 100vh;
+    margin-top: 50%
+}
+
 
 
