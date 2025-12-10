@@ -182,5 +182,38 @@ button {
     aspect-ratio: 1;
 }
 
+.product {
+    margin-top: 5rem;
+}
+
+.title-three {
+    font-size: 4rem;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 2px solid var(--primary-color);
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    height: 400px;
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-bottom: 4rem;
+}
 
 
