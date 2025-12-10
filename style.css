@@ -103,6 +103,8 @@ button {
     transform: translateY(65px);
 }
 
+/* Story content */
+
 #our-story {
     display: flex;
     justify-content: space-around;
