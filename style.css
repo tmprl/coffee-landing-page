@@ -65,6 +65,34 @@ button {
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
+}
+
+.main-heading {
+    position: absolute;
+    top: 7rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+}
+
+.second-heading {
+    position: absolute;
+    bottom: 4rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+    margin-bottom: -40px;
+}
+
+.main-btn {
+    position: absolute;
+    bottom: 2rem;
+    padding: 10px 30px;
+    margin-top: 20px;
+    background: var(--primary-color);
+    border-radius: 8px;
+    font-size: 2rem;
+
+    transform: translateY(60px);
 }
 
 
