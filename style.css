@@ -4,6 +4,7 @@
     --primary-color: #deab5f;
     --secondary-color: #312e2e;
     --font-base: "Playfair Display", sans-serif;
+    --border-radius: 5px;
 }
 
 * {
@@ -90,7 +91,7 @@ button {
     padding: 10px 30px;
     margin-top: 20px;
     background: var(--primary-color);
-    border-radius: 5px;
+    border-radius: var(--border-radius);
     font-size: 24px;
 
 
@@ -141,5 +142,10 @@ button {
     line-height: 20px;
     margin: 20px 0;
 }
+
+.section-content button {
+    border-radius: var(--border-radius);
+}
+
 
 
