@@ -13,4 +13,22 @@
 
 body {
     font-family: 'Playfair', sans-serif;
+    background: hsl(0, 0%, 10%);
 }
+
+/* navigation start */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    padding-top: 15px;
+}
+
+li {
+    display: inline;
+    list-style: none;
+
+}
+
