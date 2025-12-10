@@ -262,10 +262,18 @@ button:hover {
 .card-title {
     font-family: sans-serif;
     margin-top: 50px;
+    font-size: 2rem;
+}
+
+.card .items {
+    margin-bottom: 50px;
 }
 
 .card .items p {
     margin: 20px 0;
 }
 
+hr {
+    color: var(--secondary-color)
+}
 
