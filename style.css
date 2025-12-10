@@ -273,6 +273,36 @@ button:hover {
     margin: 20px 0;
 }
 
+
+footer {
+
+    height: 40vh;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+footer .container{
+    margin: 40px;
+    max-width: 300px;
+    text-align: center;
+}
+
+footer .heading-info {
+    margin-bottom: 20px;
+}
+
+footer p {
+    line-height: 20px;
+}
+
+
+footer span {
+    color: var(--primary-color)
+}
+
 hr {
     color: var(--secondary-color)
 }
