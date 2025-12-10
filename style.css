@@ -127,5 +127,12 @@ button {
     transform: translateX(-100px);
 }
 
+.line {
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    transform: translate(-120px, 5px);
+}
+
 
 
