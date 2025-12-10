@@ -193,6 +193,8 @@ button {
     margin-bottom: 10rem;
 }
 
+/* Product Section */
+
 .cards {
     display: flex;
     flex-direction: row;
@@ -214,6 +216,34 @@ button {
     align-items: center;
     position: relative;
     margin-bottom: 4rem;
+}
+
+.card-img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+}
+
+.img-one {
+    background: url(./images/1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-two {
+    background: url(./images/2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-three {
+    background: url(./images/3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
