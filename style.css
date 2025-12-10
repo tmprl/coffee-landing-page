@@ -32,12 +32,12 @@ nav h1 {
     cursor: default;
 }
 
-li {
+.nav-item li {
     display: inline;
     list-style: none;
 }
 
-li a {
+.nav-item li a {
     color: #fff;
     text-decoration: none;
     margin-left: 40px;
@@ -169,12 +169,12 @@ button {
 .title-two {
     font-family: var(--font-base);
     font-size: 3rem;
-    transform: translateX(-100px);
 }
 
 .content-section p {
     max-width: 500px;
     font-family: sans-serif;
+    margin: 20px 0;
 }
 
 .img-two {
