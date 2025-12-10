@@ -276,7 +276,7 @@ button:hover {
 
 footer {
 
-    height: 40vh;
+    height: 25vh;
 
     display: flex;
     justify-content: center;
@@ -304,6 +304,7 @@ footer span {
 }
 
 hr {
-    color: var(--secondary-color)
+    color: var(--secondary-color);
 }
+
 
