@@ -28,6 +28,10 @@ nav {
     font-size: 24px;
 }
 
+nav h1 {
+    cursor: default;
+}
+
 li {
     display: inline;
     list-style: none;
@@ -42,6 +46,7 @@ li a {
 
 li a:hover {
     border-bottom: 2px solid var(--primary-color);
+    color: hsl(0, 0%, 80%)
 }
 
 button {
@@ -145,7 +150,7 @@ button {
 
 .section-content button {
     border-radius: var(--border-radius);
-}
+    }
 
 
 
