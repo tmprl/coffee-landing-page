@@ -16,6 +16,7 @@
 body {
     background: hsl(0, 0%, 6.5%);
     color: #fff;
+    font-family: sans-serif;
 }
 
 /* navigation start */
@@ -182,18 +183,20 @@ button {
     aspect-ratio: 1;
 }
 
+
+/* Product Section */
+
 .product {
     margin-top: 5rem;
 }
 
 .title-three {
+    font-family: var(--font-base);
     font-size: 4rem;
     margin-left: 10rem;
     margin-top: 10rem;
     margin-bottom: 10rem;
 }
-
-/* Product Section */
 
 .cards {
     display: flex;
@@ -244,6 +247,15 @@ button {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.card-title {
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.card .items p {
+    margin: 20px 0;
 }
 
 
