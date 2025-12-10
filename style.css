@@ -3,6 +3,7 @@
 :root {
     --primary-color: #deab5f;
     --secondary-color: #312e2e;
+    --font-base: "Playfair Display", sans-serif;
 }
 
 * {
@@ -12,7 +13,7 @@
 }
 
 body {
-    background: hsl(0, 0%, 7%);
+    background: hsl(0, 0%, 6.5%);
     color: #fff;
 }
 
@@ -56,7 +57,7 @@ button {
     background-position: center;
     background-size: cover;
     height: 100vh;
-    font-family: "Playfair Display", sans-serif;
+    font-family: var(--font-base);
     font-weight: normal;
     text-transform: uppercase;
 
@@ -89,10 +90,11 @@ button {
     padding: 10px 30px;
     margin-top: 20px;
     background: var(--primary-color);
-    border-radius: 8px;
+    border-radius: 5px;
+    font-size: 24px;
 
 
-    transform: translateY(60px);
+    transform: translateY(65px);
 }
 
 #our-story {
@@ -101,8 +103,28 @@ button {
     align-items: center;
     flex-wrap: wrap;
 
-    height: 100vh;
+    /* height: 100vh; */
     margin-top: 50%
+}
+
+.img {
+    width: 400px;
+    aspect-ratio: 1;
+    background: url(./images/pexels-chitokan-2183027-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.title-style {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-family: var(--font-base);
+    font-size: 4rem;
+    word-spacing: 10px;
+    transform: translateX(-100px);
 }
 
 
