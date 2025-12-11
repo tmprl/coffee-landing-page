@@ -375,6 +375,10 @@ hr {
     .card-title {
         font-size: 1.5rem;
     }
+
+    .para {
+        max-width: 300px;
+    }
 }
 
 
